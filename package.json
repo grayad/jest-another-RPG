@@ -2,18 +2,24 @@
   "name": "jest-another-rpg",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grayad/jest-another-RPG.git~.git"
+    "url": "git+https://github.com/grayad/jest-another-RPG.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/grayad/jest-another-RPG.git~/issues"
+    "url": "https://github.com/grayad/jest-another-RPG/issues"
   },
-  "homepage": "https://github.com/grayad/jest-another-RPG.git~#readme"
+  "homepage": "https://github.com/grayad/jest-another-RPG#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
 }
